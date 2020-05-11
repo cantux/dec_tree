@@ -1,15 +1,16 @@
 # dec_tree
 decision trees with sklearn
 
-## environment
+## Setting up the environment
 
 envrionment is managed by conda.
 
-### install conda
+### Install conda
 https://docs.conda.io/en/latest/miniconda.html and grab version that suits you.
 
-### create a new conda environment
-
+### Import & run my environment
+conda create --name dec_env --file dec_env.yml
+conda activate dev_env
 
 ## Definitions
 

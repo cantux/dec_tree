@@ -9,8 +9,10 @@ envrionment is managed by conda.
 https://docs.conda.io/en/latest/miniconda.html and grab version that suits you.
 
 ### Import & run my environment
+```
 conda create --name dec_env --file dec_env.yml
 conda activate dev_env
+```
 
 ## Definitions
 

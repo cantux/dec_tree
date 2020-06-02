@@ -36,5 +36,6 @@ def mosys_predict(node_id, data_point_dct):
 
 # print("x_test: " + str( X_test))
 # print("y_test: " + str(y_test))
-for x_i, x in enumerate(X_test):
+for x in X_test:
+    print("x: " + str(x))
     assert mosys_predict(0, x) == estimator.predict(x.reshape(1,-1))[0]
